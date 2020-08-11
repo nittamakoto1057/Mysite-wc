@@ -1,0 +1,460 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header{
+  height: 70px;
+  width: 100%;
+  background-color: #EC715F;
+}
+nav{
+  height: 100%;
+  width: 1024px;
+  margin: auto;
+  line-height: normal;
+  color: #FAFAFA;
+  position: relative;
+}
+.logo{
+  height: 70px;
+}
+.nav-list{
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  line-height: 70px;
+}
+.nav-content{
+  float: left;
+  margin: auto 30px;
+  font-size: 16px;
+  list-style: none;
+}
+.open,
+.close{
+  display: none;
+} 
+input[type="checkbox"] {
+  position: absolute;
+  left: -10vw;
+}
+main{
+  width: 100%;
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
+}
+main h2{
+  color: #FAFAFA;
+  margin-top: 200px;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 64px;
+}
+main p{
+  color: #FAFAFA;
+  margin: 0;
+  display: inline-block;
+  font-size: 20px;
+}
+.portfolio{
+  width: 100%;
+  background-color: #ECEFF1;
+}
+.portfolio-contents{
+  width: 920px;
+  text-align: center;
+  padding: 90px 0;
+  margin: 0 auto;
+  position: relative;
+}
+.portfolio-contents h2{
+  font-size: 32px;
+}
+.line{
+  background-color: #EC715F;
+  height: 3px;
+  width: 70px;
+  display: inline-block;
+  position: absolute;
+  right: 47%;
+}
+.portfolio-contents p{
+  margin: 30px 0;
+  font-size: 16px;
+}
+.photo1{
+  height: 250px;
+  width: 300px;
+  margin: 0 10px 10px 0;
+  background-image: url(img/sketch.jpg);
+  background-position: center;
+  background-size: cover;
+  float: left;
+}
+.photo2{
+  height: 250px;
+  width: 300px;
+  margin: 0 10px 10px 0;
+  background-image: url(img/websuku.png);
+  background-position: center;
+  background-size: cover;
+  float: left;
+}
+.photo3{
+  height: 250px;
+  width: 300px;
+  margin: 0 0 10px 0;
+  background-image: url(img/write.jpg);
+  background-position: center;
+  background-size: cover;
+  float: left;
+}
+.photo4{
+  height: 250px;
+  width: 300px;
+  margin: 0 10px 0 0;
+  background-image: url(img/webcamp.png);
+  background-position: center;
+  background-size: cover;
+  float: left;
+}
+.photo5{
+  height: 250px;
+  width: 300px;
+  margin: 0 10px 0 0;
+  background-image: url(img/talk.jpg);
+  background-position: center;
+  background-size: cover;
+  float: left;
+}
+.photo6{
+  height: 250px;
+  width: 300px;
+  margin: 0;
+  background-image: url(img/webcamp-mother.png);
+  background-position: center;
+  background-size: cover;
+  float: left;
+}
+.feature{
+  width: 100%;
+}
+.feature-contents{
+  width: 980px;
+  margin: 0 auto;
+  padding: 90px 0;
+  position: relative;
+  text-align: center;
+}
+.feature-contents h2{
+  font-size: 32px;
+}
+.feature-text{
+  margin: 30px 0;
+}
+.strength1{
+  width: 320px;
+  float: left;
+  margin-right: 10px;
+  word-wrap: break-word;
+}
+.strength2{
+  width: 320px;
+  float: left;
+  margin-right: 10px;
+  word-wrap: break-word;
+}
+.strength3{
+  width: 320px;
+  float: left;
+  word-wrap: break-word;
+}
+.feature-contents i{
+  font-size: 60px;
+}
+.feature-contents h3{
+  margin: 10px auto;
+}
+.feature-contents p{
+  font-size: 16px;
+}
+.profile{
+  width: 100%;
+  background-color: #ECEFF1;
+}
+.profile-contents{
+  width: 1024px;
+  margin: 0 auto;
+  padding: 90px 0;
+  text-align: center;
+  position: relative;
+}
+.profile-contents h2{
+  font-size: 32px;
+}
+.defolttext{
+  margin: 30px 0;
+  font-size: 16px;
+}
+.icon{
+  width: 512px;
+  padding: auto;
+  float: left;
+}
+.icon img{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+.profile-text{
+  width: 512px;
+  float: left;
+  text-align: left;
+}
+.myname{
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.myskill{
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.contact{
+  width: 100%;
+}
+.contact-contents{
+  width: 800px;
+  text-align: center;
+  padding: 90px 0;
+  margin: 0 auto;
+}
+.address{
+  width: 400px;
+  float: left;
+}
+.address-contents{
+  margin: 0 auto;
+  text-align: left;
+  width: 130px;
+}
+.address-contents h3{
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.address-contents p{
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+.sns{
+  width: 400px;
+  float: left;
+}
+.sns-contents{
+  width: 200px;
+  text-align: left;
+  margin: 0 auto;
+}
+.sns-contents h3{
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.sns-contents i{
+  font-size: 50px;
+  padding-right: 20px;
+}
+footer{
+  height: 60px;
+  width: 100%;
+  background-color: #EC715F;
+  text-align: center;
+  line-height: 60px;
+  color: #FAFAFA;
+}
+
+@media screen and (max-width:767px) {
+  header{
+    height: 50px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .logo{
+    height: 50px;
+  }
+  .nav-list{
+    position: absolute;
+    left: -150vw;
+  }
+  .open,
+  .close{
+    display: block;
+    color: #FAFAFA;
+  }
+  .open{
+    position: absolute;
+    top: 5px;
+    right: 8%;
+    font-size: 30px;
+  }
+  main{
+    width: 90%;
+    margin: 0 auto;
+    background-image: url(img/code.png);
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+  }
+  main h2{
+    font-size: 40px;
+  }
+  main p{
+    font-size: 18px;
+  }
+  .portfolio{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .portfolio-contents{
+    width: 90%;
+    padding: 90px 0;
+  }
+  .portfolio-contents h2{
+    font-size: 32px;
+  }
+  .line{
+    background-color: #EC715F;
+    height: 3px;
+    width: 70px;
+    display: inline-block;
+    position: absolute;
+    right: 47%;
+  }
+  .photo1{
+    margin: 0 auto 10px auto;
+    background-image: url(img/websuku.png);
+    float: none;
+  }
+  .photo2{
+    margin: 0 auto 10px auto;
+    background-image: url(img/webcamp.png);
+    float: none;
+  }
+  .photo3{
+    margin: 0 auto;
+    background-image: url(img/webcamp-mother.png);
+    float: none;
+  }
+  .photo4{
+    display: none;
+  }
+  .photo5{
+    display: none;
+  }
+  .photo6{
+    display: none;
+  }
+  .feature{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .feature-contents{
+    width: 90%;
+    padding: 90px 0;
+    margin: 0 auto;
+  }
+  .strength1{
+    width: 100%;
+    float: none;
+    margin-top: 20px;
+    word-wrap: break-word;
+  }
+  .strength2{
+    width: 100%;
+    float: none;
+    margin-top: 10px;
+    word-wrap: break-word;
+  }
+  .strength3{
+    width: 100%;
+    float: none;
+    margin-top: 10px;
+    word-wrap: break-word;
+  }
+  .profile{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .profile-contents{
+    width: 90%;
+  }
+  .icon{
+    width: 100%;
+    float: none;
+  }
+  .profile-text{
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .myname{
+    padding-top: 20px;
+  }
+  .contact{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .contact-contents{
+    width: 90%;
+  }
+  .address{
+    width: 100%;
+    float: none;
+  }
+  .address-contents{
+    text-align: center;
+  }
+  .address-contents h3{
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+  .address-contents p{
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .sns{
+    width: 100%;
+    float: none;
+  }
+  .sns-contents{
+    text-align: center;
+  }
+  .sns-contents h3{
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  .sns-contents i{
+    font-size: 50px;
+    padding-right: 8px;
+  }
+  footer{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .line{
+    position: absolute;
+    right: 44%;
+  }
+}
+
